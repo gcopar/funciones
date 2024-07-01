@@ -12,11 +12,8 @@ int main(){
     srand(time(0));
     int nummax, cantnum;
 
-
     cout<<"Ingresa la cantidad de numeros aleatorios que desee generar: "; cin>>cantnum;
     cout<<"Ingresa el valor maximo que podra salir en un numero aletorio: "; cin>>nummax;
-
-
 
     for (int i = 1; i <= cantnum; i++)
     {
