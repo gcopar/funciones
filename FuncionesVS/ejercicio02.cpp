@@ -9,20 +9,20 @@ void porValor(int a){
    cout<<"Dentro de porValor, a = "<<a<<endl;
 }
 
-void porReferencia(int a){
+void porReferencia(int &a){
    a = 10;
    cout<<"Dentro de porReferencia, a = "<<a<<endl;
 }
 
 int main(){
-    int num = 5;
-    cout<<"Antes de porValor, num = "<<num<<endl;
-    porValor(num);
-    cout<<"Despues de porValor, num = "<<num<<endl;
-    
-    cout<<"Antes de porReferencia, num = "<<num<<endl;
-    porReferencia(num);
-    cout<<"Despues de porReferencia, num = "<<num<<endl;
-    
-    return 0;
+   int num = 5;
+   cout<<"Antes de porValor, num = "<<num<<endl;
+   porValor(num);
+   cout<<"Despues de porValor, num = "<<num<<endl;
+   
+   cout<<"Antes de porReferencia, num = "<<num<<endl;
+   porReferencia(num);
+   cout<<"Despues de porReferencia, num = "<<num<<endl;
+   
+   return 0;
 }
