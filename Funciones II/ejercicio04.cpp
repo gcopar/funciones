@@ -23,20 +23,20 @@ int main(){
         x_1 = (-b + sqrt(discr)) / (2*a);
         x_2 = (-b - sqrt(discr)) / (2*a);
 
-        cout<<"RAICES: "<<endl;
+        cout<<"RAICES REALES: "<<endl;
         cout<<"\t - x_1 = "<<x_1<<endl;
         cout<<"\t - x_2 = "<<x_2<<endl;
     }else if (discr == 0)
     {
         x_1 = -b / (2*a);
 
-        cout<<"RAIZ: "<<endl;
+        cout<<"RAIZ REAL: "<<endl;
         cout<<"\t - x_1 = "<<x_1<<endl;
     }else{
         preal = -b / (2*a);
         pimgn = sqrt(abs(discr)) / (2*a);
 
-        cout<<"RAICES: "<<endl;
+        cout<<"RAICES COMPLEJAS: "<<endl;
         cout<<"\t - x_1 = "<<preal<<" + "<<pimgn<<"i"<<endl;
         cout<<"\t - x_2 = "<<preal<<" - "<<pimgn<<"i"<<endl;
     }
